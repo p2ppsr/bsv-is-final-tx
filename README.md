@@ -12,11 +12,9 @@ npm i bsv-is-final-tx
 
 ```js
 const isFinal = require('bsv-is-final-tx')
-const bsv = require('bsv') // bsv@^1.5.5, not bsv@2
 
 (async () => {
-  const tx = new bsv.Transaction('TX_HEX_HERE')
-  console.log(await isFinal(tx))
+  console.log(await isFinal('YOUR_TX_HEX_HERE'))
 })()
 ```
 

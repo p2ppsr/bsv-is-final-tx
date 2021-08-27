@@ -1,12 +1,8 @@
 {
   "name": "bsv-is-final-tx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Checks if a BSV transaction is final",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/p2ppsr/bsv-is-final-tx.git"
@@ -24,14 +20,10 @@
   },
   "homepage": "https://github.com/p2ppsr/bsv-is-final-tx#readme",
   "devDependencies": {
-    "bsv": "^1.5.5",
-    "jest": "^26.6.3",
     "standard": "^16.0.3"
   },
-  "peerDependencies": {
-    "bsv": "^1.5.5"
-  },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "bsv": "^1.5.5"
   }
 }
