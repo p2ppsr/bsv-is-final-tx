@@ -1,5 +1,5 @@
 const axios = require('axios')
-const bsv = require('bsv')
+const bsv = require('babbage-bsv')
 
 const MAXINT = 0xffffffff
 const BLOCK_LIMIT = 500000000
