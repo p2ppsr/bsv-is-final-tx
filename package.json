@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "babbage-bsv": "^0.2.4"
+    "babbage-bsv": "^0.2.5"
   }
 }
